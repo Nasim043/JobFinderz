@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+        primary: "#8788EE",
+        secondary: "#757575",
+      },
       fontFamily: {
         display: ["Manrope", "sans-serif"],
       },
