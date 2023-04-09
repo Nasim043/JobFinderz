@@ -6,12 +6,13 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
+import ErrorPage from "./components/ErrorPage"
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Navbar />,
-    errorElement: <h1>Hello Error page</h1>,
+    errorElement: <ErrorPage />,
     children:[
       {
         path: "blog",
