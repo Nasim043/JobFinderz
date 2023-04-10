@@ -4,7 +4,7 @@ import { Link, Outlet } from 'react-router-dom';
 const Navbar = () => {
   return (
     <>
-      <div className="navbar bg-base-100 my-container mt-10">
+      <div className="navbar bg-base-100 my-container">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">

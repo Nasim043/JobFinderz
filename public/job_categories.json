@@ -1,0 +1,28 @@
+{
+  "job_categories": [
+    {
+      "id": "001",
+      "name": "Engineering Job",
+      "logo": "https://i.ibb.co/stxWWLS/engineering.png",
+      "jobs_available": 1000
+    },
+    {
+      "id": "002",
+      "name": "Marketing",
+      "logo": "https://i.ibb.co/GdJqLnC/marketing.png",
+      "jobs_available": 500
+    },
+    {
+      "id": "003",
+      "name": "Finance",
+      "logo": "https://i.ibb.co/F6NSHjF/accounts-1.png",
+      "jobs_available": 750
+    },
+    {
+      "id": "004",
+      "name": "Education",
+      "logo": "https://i.ibb.co/MDZvzgQ/graduation-cap.png",
+      "jobs_available": 250
+    }
+  ]
+}

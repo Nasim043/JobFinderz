@@ -1,0 +1,112 @@
+{
+  "jobs": [
+    {
+      "id": "001",
+      "company_logo": "https://i.ibb.co/CV4Lpgb/google-1-1-1.png",
+      "job_title": "Software Engineer",
+      "company_name": "Google",
+      "remote_or_onsite": "Remote",
+      "location": "San Francisco, CA",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$100,000 - $120,000",
+      "job_description": "We are looking for a skilled software engineer to join our team.",
+      "job_responsibility": "Design, develop, and maintain software applications.",
+      "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+      "experiences": "At least 3 years of experience in software engineering.",
+      "contact_information": {
+        "phone": "+1 123-456-7890",
+        "email": "careers@google.com"
+      }
+    },
+    {
+      "id": "002",
+      "company_logo": "https://i.ibb.co/VSrtQZx/netflix-4-1.png",
+      "job_title": "Marketing Manager",
+      "company_name": "Microsoft",
+      "remote_or_onsite": "Onsite",
+      "location": "New York, NY",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$80,000 - $100,000",
+      "job_description": "We are seeking a talented marketing manager to oversee our marketing campaigns.",
+      "job_responsibility": "Develop and implement marketing strategies to promote our products and services.",
+      "educational_requirements": "Bachelor's degree in Marketing or related field.",
+      "experiences": "At least 5 years of experience in marketing management.",
+      "contact_information": {
+        "phone": "+1 123-456-7890",
+        "email": "careers@microsoft.com"
+      }
+    },
+    {
+      "id": "003",
+      "company_logo": "https://i.ibb.co/Dr9MKqd/tesla-9-1.png",
+      "job_title": "Graphic Designer",
+      "company_name": "Tesla",
+      "remote_or_onsite": "Remote",
+      "location": "Los Angeles, CA",
+      "fulltime_or_parttime": "Part-time",
+      "salary": "$30 - $40 per hour",
+      "job_description": "We are looking for a creative and experienced graphic designer to join our team.",
+      "job_responsibility": "Create and design graphics for various projects and clients.",
+      "educational_requirements": "Bachelor's degree in Graphic Design or related field.",
+      "experiences": "At least 2 years of experience in graphic design.",
+      "contact_information": {
+        "phone": "+1 123-456-7890",
+        "email": "careers@tesla.com"
+      }
+    },
+    {
+      "id": "004",
+      "company_logo": "https://i.ibb.co/VSrtQZx/netflix-4-1.png",
+      "job_title": "Product Manager",
+      "company_name": "Apple",
+      "remote_or_onsite": "Onsite",
+      "location": "Cupertino, CA",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$120,000 - $150,000",
+      "job_description": "We are looking for a talented product manager to lead our product development efforts.",
+      "job_responsibility": "Develop and execute product roadmaps, manage product lifecycle, and collaborate with cross-functional teams.",
+      "educational_requirements": "Bachelor's degree in Business Administration or related field.",
+      "experiences": "At least 5 years of experience in product management.",
+      "contact_information": {
+        "phone": "+1 123-456-7890",
+        "email": "careers@apple.com"
+      }
+    },
+    {
+      "id": "005",
+      "company_logo": "https://i.ibb.co/qL6TFLB/Group-10021.png",
+      "job_title": "Sales Representative",
+      "company_name": "IBM",
+      "remote_or_onsite": "Remote",
+      "location": "Anywhere in the US",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$60,000 - $80,000",
+      "job_description": "We are seeking a motivated sales representative to drive revenue growth and build strong relationships with clients.",
+      "job_responsibility": "Identify new business opportunities, negotiate and close deals, and provide exceptional customer service.",
+      "educational_requirements": "Bachelor's degree in Business or related field.",
+      "experiences": "At least 2 years of experience in sales or business development.",
+      "contact_information": {
+        "phone": "+1 123-456-7890",
+        "email": "careers@ibm.com"
+      }
+    },
+    {
+      "id": "006",
+      "company_logo": "https://i.ibb.co/HdDSHcz/facebook.png",
+      "job_title": "UX Designer",
+      "company_name": "Facebook",
+      "remote_or_onsite": "Onsite",
+      "location": "Menlo Park, CA",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$90,000 - $110,000",
+      "job_description": "We are looking for a talented UX designer to join our team and create engaging and intuitive user experiences.",
+      "job_responsibility": "Design and iterate on user interfaces, collaborate with cross-functional teams, and conduct user research.",
+      "educational_requirements": "Bachelor's degree in Design or related field.",
+      "experiences": "At least 3 years of experience in UX design.",
+      "contact_information": {
+        "phone": "+1 123-456-7890",
+        "email": "careers@facebook.com"
+      }
+    }
+  ]
+}
