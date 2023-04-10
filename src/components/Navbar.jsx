@@ -12,7 +12,7 @@ const Navbar = () => {
           </label>
           <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
             <li><Link to='statistics'>Statistics</Link></li>
-            <li><Link to='/'>Applied Jobs</Link></li>
+            <li><Link to='applied-jobs'>Applied Jobs</Link></li>
             <li><Link to='blog'>Blog</Link></li>
           </ul>
         </div>
@@ -21,12 +21,12 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li><Link to='statistics'>Statistics</Link></li>
-          <li><Link to='/'>Applied Jobs</Link></li>
+          <li><Link to='applied-jobs'>Applied Jobs</Link></li>
           <li><Link to='blog'>Blog</Link></li>
         </ul>
       </div>
       <div className="navbar-end">
-        <Link to='hf' className="bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-orange-500 text-white font-semibold px-6 py-3 rounded-md mr-6">Start Applying</Link>
+        <Link to='hf' className="bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-orange-500 text-white font-semibold px-6 py-3 rounded-md">Start Applying</Link>
       </div>
     </div>
     <Outlet />

@@ -25,7 +25,7 @@ const Job = ({ job }) => {
           <p className='text-secondary text-lg font-medium'>Salary : {salary}</p>
         </div>
       </div>
-      <Link className="my-gradient text-white font-semibold px-6 py-3 rounded-md mt-4">View Details</Link>
+      <Link to={`job/${id}`} className="my-gradient text-white font-semibold px-6 py-3 rounded-md mt-4">View Details</Link>
     </div >
   );
 };

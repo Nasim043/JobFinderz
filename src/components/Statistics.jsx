@@ -4,7 +4,6 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, CartesianGrid, Responsive
 
 const Statistics = () => {
   const { marks } = useLoaderData();
-  console.log(marks);
   return (
     <div className='my-container'>
       <ResponsiveContainer width={'99%'} height={300}>
