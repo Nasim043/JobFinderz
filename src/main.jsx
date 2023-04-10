@@ -14,11 +14,11 @@ const router = createBrowserRouter([
     path: "/",
     element: <Navbar />,
     errorElement: <ErrorPage />,
-    children:[
+    children: [
       {
         path: "/",
         element: <Home />,
-        loader: ()=>fetch('job_categories.json')
+        loader: () => fetch('job_categories.json')
       },
       {
         path: "blog",
@@ -26,7 +26,8 @@ const router = createBrowserRouter([
       },
       {
         path: "statistics",
-        element: <Statistics />
+        element: <Statistics />,
+        loader: () => fetch('marks.json')
       }
     ]
   }
