@@ -5,7 +5,7 @@ import PageName from './PageName';
 const Blog = () => {
   return (
     <>
-      <PageName>Blog Page</PageName>
+      <PageName>Blog</PageName>
       <div className='mb-6'>
         <main className="w-full max-w-7xl mx-auto mt-8">
           <div tabIndex="0" className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">

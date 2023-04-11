@@ -7,9 +7,9 @@ const Statistics = () => {
   const { marks } = useLoaderData();
   return (
     <>
-    <PageName>Statistics Page</PageName>
+    <PageName>Assignment Analytics</PageName>
       <div className='my-container'>
-      <ResponsiveContainer width={'99%'} height={300}>
+      <ResponsiveContainer width={'100%'} height={300}>
         <AreaChart
           width={500}
           height={300}

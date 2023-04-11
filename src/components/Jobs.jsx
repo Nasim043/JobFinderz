@@ -9,10 +9,10 @@ const Jobs = ({ jobs }) => {
   }
 
   return (
-    <div className='my-container mb-32'>
+    <div className='my-container mb-9 md:mb-32'>
       <h2 className='font-bold text-4xl text-center mb-4'>Featured Jobs</h2>
       <p className='text-base text-secondary text-center'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6'>
         {
           jobs.slice(0, showAll ? 6 : 4).map(job => (
             <Job key={job.id} job={job} />
