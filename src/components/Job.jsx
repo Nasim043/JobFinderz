@@ -4,8 +4,7 @@ import { CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/outline'
 
 
 const Job = ({ job }) => {
-  const { id, company_logo, job_title, company_name, remote_or_onsite, location, fulltime_or_parttime, salary,
-    job_description, job_responsibility, educational_requirements, experiences, contact_information } = job;
+  const { id, company_logo, job_title, company_name, remote_or_onsite, location, fulltime_or_parttime, salary } = job;
   return (
     <div className='p-10 mt-7 rounded-lg border-2'>
       <img src={company_logo} alt={job_title} className='mb-7' />
@@ -17,11 +16,11 @@ const Job = ({ job }) => {
       </div>
       <div className='flex gap-1 lg:gap-3 mb-6'>
         <div className='flex items-center'>
-          <MapPinIcon className='h-6 w-6 pr-1'/>
+          <MapPinIcon className='h-6 w-6 pr-1' />
           <span className='text-secondary text-lg font-medium'>{location}</span>
         </div>
         <div className='flex items-center'>
-          <CurrencyDollarIcon className='h-6 w-6 pr-1'/>
+          <CurrencyDollarIcon className='h-6 w-6 pr-1' />
           <p className='text-secondary text-lg font-medium'>Salary : {salary}</p>
         </div>
       </div>

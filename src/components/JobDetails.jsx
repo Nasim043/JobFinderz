@@ -1,11 +1,13 @@
 import { CalendarDaysIcon, CurrencyDollarIcon, EnvelopeIcon, MapPinIcon, PhoneIcon } from '@heroicons/react/24/outline';
 import React from 'react';
-import { useParams, useLoaderData } from 'react-router-dom';
+import { useParams, useLoaderData, useLocation } from 'react-router-dom';
 import {addToStorage} from '../LocalStorage.js'
 
 const JobDetails = () => {
   const { id } = useParams()
   const { jobs } = useLoaderData()
+  const loc = useLocation();
+  console.log(loc);
   const jobDetails = jobs.find(job => job.id === id)
   const { company_logo, job_title, company_name, remote_or_onsite, location, fulltime_or_parttime, salary,
     job_description, job_responsibility, educational_requirements, experiences, contact_information } = jobDetails;

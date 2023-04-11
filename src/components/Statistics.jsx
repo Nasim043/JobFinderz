@@ -1,33 +1,35 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, CartesianGrid, ResponsiveContainer } from 'recharts';
+import { useLoaderData, useLocation } from 'react-router-dom';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import PageName from './PageName';
 
 const Statistics = () => {
   const { marks } = useLoaderData();
   return (
-    <div className='my-container'>
+    <>
+    <PageName>Statistics Page</PageName>
+      <div className='my-container'>
       <ResponsiveContainer width={'99%'} height={300}>
-        <BarChart
+        <AreaChart
           width={500}
           height={300}
           data={marks}
           margin={{
-            top: 5,
+            top: 10,
             right: 30,
             left: 20,
             bottom: 5,
           }}
-          barSize={20}
         >
-          <XAxis dataKey="assignment_no" scale="point" padding={{ left: 10, right: 10 }} />
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="assignment_no" />
           <YAxis />
           <Tooltip />
-          <Legend />
-          <CartesianGrid strokeDasharray="3 3" />
-          <Bar dataKey="marks" fill="#8884d8" background={{ fill: '#eee' }} />
-        </BarChart>
+          <Area type="monotone" dataKey="marks" stroke="#8884d8" fill="#8884d8" />
+        </AreaChart>
       </ResponsiveContainer>
     </div>
+    </>
   );
 };
 

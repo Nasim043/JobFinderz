@@ -1,35 +1,35 @@
 {
   "marks": [
     {
-      "assignment_no": 1,
+      "assignment_no": "A1",
       "marks": 57
     },
     {
-      "assignment_no": 2,
+      "assignment_no": "A2",
       "marks": 60
     },
     {
-      "assignment_no": 3,
+      "assignment_no": "A3",
       "marks": 60
     },
     {
-      "assignment_no": 4,
+      "assignment_no": "A4",
       "marks": 60
     },
     {
-      "assignment_no": 5,
+      "assignment_no": "A5",
       "marks": 60
     },
     {
-      "assignment_no": 6,
+      "assignment_no": "A6",
       "marks": 60
     },
     {
-      "assignment_no": 7,
+      "assignment_no": "A7",
       "marks": 60
     },
     {
-      "assignment_no": 7,
+      "assignment_no": "A8",
       "marks": 60
     }
   ]
