@@ -30,7 +30,7 @@ const AppliedJobsDetails = ({ appliedJob }) => {
         </div>
       </div>
       <div>
-        <Link className="my-gradient text-white font-semibold px-6 py-3 rounded-md mt-4">View Details</Link>
+        <Link to={`../job/${id}`} className="my-gradient text-white font-semibold px-6 py-3 rounded-md mt-4">View Details</Link>
       </div>
     </div >
   );
